@@ -29,7 +29,7 @@ Before running the tests, make sure you have the following installed:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/mercedes-benz-automation.git
+git clone https://github.com/rajdilawar/mercedes-benz-automation.git
 cd mercedes-benz-automation
 ```
 
