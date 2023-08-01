@@ -1,0 +1,1 @@
+Car prize max value is  34520 And car prize min value is  31905

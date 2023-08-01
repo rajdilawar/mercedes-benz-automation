@@ -1,0 +1,33 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+# Log files
+*.log
+
+# Compiled class file
+*.class
+
+# Screenshot folder
+screenshot/
+
+# Allure report folders
+allure-results/
+allure-report/
+
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
