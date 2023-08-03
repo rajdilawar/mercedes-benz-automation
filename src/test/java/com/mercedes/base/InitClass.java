@@ -34,10 +34,17 @@ public class InitClass {
             System.out.println("Initializing chrome driver");
 
         } else if (browserName.equals("firefox")) {
+            //the solution will not work with shadow dom on the firefox browser due to the known issue
             //System.setProperty("webdriver.chrome.driver", "src/driver/geckodriver");
             driver = new FirefoxDriver();
             System.out.println("Initializing Firefox driver");
+            
+        } else if (browserName.equals("edge")) {
+            // For Safari, no additional setup is required for WebDriver.
+            driver = new EdgeDriver();
+            System.out.println("Initializing edge driver");
         }
+
 
         //managing driver
         //driver.manage().window().maximize();
